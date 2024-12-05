@@ -1,4 +1,4 @@
-const { getCPUCount } = require('../src/systemInfo');
+const { getCPUCount, getSystemInfo } = require('../src/systemInfo');
 
 describe('System Info Functions', () => {
     test('getCPUCount should return the number of CPUs', () => {
